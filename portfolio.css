@@ -1,100 +1,118 @@
 body {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 header {
-    padding: 10px 5px 10px 5px;
-    display: flex;
-    justify-content: space-between;
-    height: 70px;
-    width: 100%;
+  padding: 10px 5px 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  border-bottom: solid 1px black;
 }
 
 .header-title {
-    padding: 10px 5px 10px 5px;
-    font-size: 30px;
+  padding: 10px 5px 10px 5px;
+  font-size: 30px;
 }
 
 .header-contents {
-    padding: 5px;
-    display: flex;
-    list-style: none;
+  padding: 5px;
+  display: flex;
+  list-style: none;
 }
 
 .header-contents li {
-    padding: 3px;
-    margin: 0 10px 0 10px;
+  padding: 3px;
+  margin: 0 15px 0 15px;
 }
 
 .header-contents a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .main-container {
-    font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .main-title-container {
-    height: 500px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-title-container p {
-    text-align: center;
-    font-size: 60px;
+  text-align: center;
+  font-size: 60px;
 }
 
 .main-contents-container {
-    margin-right: auto;
-    margin-left: auto;
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main-contents {
-    justify-content: center;
+  justify-content: center;
 }
 
 .main-contents .introduction {
-    display: flex;
-    margin-bottom: 50px;
+  display: flex;
+  margin-bottom: 150px;
 }
 
 .main-contents .skill {
-    display: flex;
-    margin-bottom: 50px;
+  display: flex;
+  margin-bottom: 150px;
+  margin-top: 0;
 }
 
 .main-contents .contact {
-    display: flex;
-    margin-bottom: 50px;
+  display: flex;
+  margin-bottom: 150px;
 }
 
 .main-contents-image {
-    height: 225px;
-    width: 360px;
+  height: 225px;
+  width: 360px;
 }
 
 .main-contents-text {
-    height: 225px;
-    width: 360px;
+  height: 225px;
+  width: 360px;
 }
 
 .main-contents-image {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 footer {
-    height: 100px;
-    padding: 20px;
-    text-align: center;
-    background-color: #a9a9a9;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  border-top: solid 1px black;
 }
 
 .fab {
-    text-decoration: none;
-    color: black;
-    font-size: x-large;
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.fab:hover {
+  animation: key1 0.3s ease infinite alternate;
+}
+
+@keyframes key1 {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
