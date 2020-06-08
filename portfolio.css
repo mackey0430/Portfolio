@@ -1,0 +1,100 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+}
+
+.header-title {
+    padding: 10px 5px 10px 5px;
+    font-size: 30px;
+}
+
+.header-contents {
+    padding: 5px;
+    display: flex;
+    list-style: none;
+}
+
+.header-contents li {
+    padding: 3px;
+    margin: 0 10px 0 10px;
+}
+
+.header-contents a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-container {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main-title-container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title-container p {
+    text-align: center;
+    font-size: 60px;
+}
+
+.main-contents-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-contents {
+    justify-content: center;
+}
+
+.main-contents .introduction {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.main-contents .skill {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.main-contents .contact {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.main-contents-image {
+    height: 225px;
+    width: 360px;
+}
+
+.main-contents-text {
+    height: 225px;
+    width: 360px;
+}
+
+.main-contents-image {
+    margin-right: 50px;
+}
+
+footer {
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    background-color: #a9a9a9;
+}
+
+.fab {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
